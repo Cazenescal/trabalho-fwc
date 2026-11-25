@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oficina &amp; Lab Dev | Catálogo</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="site-header__brand" href="index.html">
+        <span>Oficina &amp; Lab Dev</span>
+        <span class="site-header__badge">HTML5 + CSS3</span>
+      </a>
+      <nav aria-label="Navegação principal">
+        <ul class="nav-menu">
+          <li><a class="nav-menu__link" href="index.html">Início</a></li>
+          <li><a class="nav-menu__link nav-menu__link--active" href="catalogo.html">Catálogo</a></li>
+          <li><a class="nav-menu__link" href="projetos.html">Projetos</a></li>
+          <li><a class="nav-menu__link" href="guia.html">Guia</a></li>
+          <li><a class="nav-menu__link" href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <header class="section__header">
+          <h1 class="section__title">Catálogo de Recursos e Serviços</h1>
+          <p class="section__subtitle">Grade com 6 cartões usando CSS Grid (<code>repeat</code>, <code>minmax</code> e <code>auto-fit</code>).</p>
+        </header>
+
+        <div class="catalog-grid">
+          <article class="card card--destaque">
+            <div class="card__media">ITEM 01 — DIAGNÓSTICO</div>
+            <div class="card__conteudo">
+              <h2 class="card__titulo">Inspeção Inicial</h2>
+              <p class="card__descricao">Registro de falhas relatadas, testes preliminares e orçamento base.</p>
+              <a class="card__botao" href="contato.html">Solicitar</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__media">ITEM 02 — ELÉTRICA</div>
+            <div class="card__conteudo">
+              <h2 class="card__titulo">Chicotes e Sensores</h2>
+              <p class="card__descricao">Verificação de continuidade, conectores e leitura de sinais.</p>
+              <a class="card__botao" href="guia.html">Detalhes</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__media">ITEM 03 — MECÂNICA</div>
+            <div class="card__conteudo">
+              <h2 class="card__titulo">Alinhamento e Folgas</h2>
+              <p class="card__descricao">Checagem de buchas, suportes, fixações e desgaste geral.</p>
+              <a class="card__botao" href="projetos.html">Ver caso</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__media">ITEM 04 — FERRAMENTAS</div>
+            <div class="card__conteudo">
+              <h2 class="card__titulo">Bancada Organizada</h2>
+              <p class="card__descricao">Separação de instrumentos por frequência de uso e calibragem.</p>
+              <a class="card__botao" href="guia.html">Detalhes</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__media">ITEM 05 — PLANILHAS</div>
+            <div class="card__conteudo">
+              <h2 class="card__titulo">Controle Financeiro</h2>
+              <p class="card__descricao">Acompanhamento de entradas, saídas e custos por serviço.</p>
+              <a class="card__botao" href="projetos.html">Ver caso</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__media">ITEM 06 — ENTREGA</div>
+            <div class="card__conteudo">
+              <h2 class="card__titulo">Teste Final e Laudo</h2>
+              <p class="card__descricao">Validação pós-serviço e registro histórico para próximas revisões.</p>
+              <a class="card__botao" href="contato.html">Agendar</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p>Oficina &amp; Lab Dev — Catálogo de itens.</p>
+      <p><a class="nav-menu__link" href="index.html">Voltar ao início</a></p>
+    </div>
+  </footer>
+</body>
+</html>

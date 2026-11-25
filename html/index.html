@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oficina &amp; Lab Dev | Início</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="site-header__brand" href="index.html">
+        <span>Oficina &amp; Lab Dev</span>
+        <span class="site-header__badge">HTML5 + CSS3</span>
+      </a>
+      <nav aria-label="Navegação principal">
+        <ul class="nav-menu">
+          <li><a class="nav-menu__link nav-menu__link--active" href="index.html">Início</a></li>
+          <li><a class="nav-menu__link" href="catalogo.html">Catálogo</a></li>
+          <li><a class="nav-menu__link" href="projetos.html">Projetos</a></li>
+          <li><a class="nav-menu__link" href="guia.html">Guia</a></li>
+          <li><a class="nav-menu__link" href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <h1 class="hero__title">Organização prática para oficinas, bancadas e projetos</h1>
+          <p class="hero__description">
+            Site responsivo construído com marcação semântica, arquitetura BEM, Flexbox, CSS Grid e adaptações para telas de 375px a 1366px.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="catalogo.html">Explorar catálogo</a>
+            <a class="btn btn--outline" href="contato.html">Falar conosco</a>
+          </div>
+        </div>
+        <aside class="hero__panel" aria-label="Resumo rápido">
+          <p>Módulos ativos</p>
+          <p class="hero__metric">5 Páginas</p>
+          <p class="hero__description">Estrutura semântica, grade de itens e layout adaptável.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <header class="section__header">
+          <h2 class="section__title">Destaques em Flexbox</h2>
+          <p class="section__subtitle">Cartões organizados horizontalmente em telas amplas e empilhados quando necessário.</p>
+        </header>
+
+        <div class="card-flex-row">
+          <article class="card card--destaque">
+            <div class="card__media">MANUTENÇÃO &amp; CHECKLIST</div>
+            <div class="card__conteudo">
+              <h3 class="card__titulo">Controle de Revisões</h3>
+              <p class="card__descricao">Padronize etapas de diagnóstico, troca de peças e entrega sem perder prazos.</p>
+              <a class="card__botao" href="projetos.html">Ver projetos</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__media">PEÇAS &amp; ESTOQUE</div>
+            <div class="card__conteudo">
+              <h3 class="card__titulo">Inventário Visual</h3>
+              <p class="card__descricao">Acompanhe itens críticos, fornecedores e disponibilidade de forma direta.</p>
+              <a class="card__botao" href="catalogo.html">Ver catálogo</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__media">BOAS PRÁTICAS</div>
+            <div class="card__conteudo">
+              <h3 class="card__titulo">Rotina de Bancada</h3>
+              <p class="card__descricao">Fluxos curtos pensados para consultas rápidas no celular ou no computador.</p>
+              <a class="card__botao" href="guia.html">Ler guia</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p>Oficina &amp; Lab Dev — Projeto de Web Coding (HTML5 e CSS3).</p>
+      <p>Desenvolvido com metodologia BEM.</p>
+    </div>
+  </footer>
+</body>
+</html>
